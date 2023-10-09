@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Checklist</title>
+
+    <link rel="stylesheet" href="Checklist.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Grocery Checklist</h1>
+
+        <a id="reset" onclick="resetList()">Reset</a>
+        <div class="main">
+            
+            <div>
+                <button id="showAddChecklist" onclick="showChecklist()">&#9998;</button>
+
+                <div id="addChecklist">
+                    <input type="text">
+                    <a href="">&#x2714;</a>
+                    <div id="underline"></div>
+                </div>
+            </div>
+            <ul>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="Checklist.js"></script>
+</body>
+</html>
